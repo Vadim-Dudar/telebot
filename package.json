@@ -1,0 +1,19 @@
+{
+  "name": "telebot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.py",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vadim-Dudar/telebot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vadim-Dudar/telebot/issues"
+  },
+  "homepage": "https://github.com/Vadim-Dudar/telebot#readme"
+}
