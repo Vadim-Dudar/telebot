@@ -25,5 +25,4 @@ def echo_all(message):
         bot.send_message(message.chat.id, 'I can parce only dou.ua ☹️')
         
     
-
 bot.polling()
