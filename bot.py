@@ -10,8 +10,8 @@ bot = telebot.TeleBot(config.token)
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
 
-    bot.send_message(message.chat.id, "Hi let's start!\nI'm bot wich parce dou.ua.\nSend me link for page")
-    bot.send_message(message.chat.id, 'Ok.\nGive me just url for page')
+    bot.send_message(message.chat.id, "Hi let's start!\nI'm bot wich parce dou.ua.")
+    bot.send_message(message.chat.id, 'Ok.Give me just url for page')
 
 
 @bot.message_handler(func=lambda message: True)
